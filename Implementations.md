@@ -2,7 +2,7 @@ Here's a list of implementations of TLS 1.3.  Add your own.  Talk to @martinthom
 
 # Implementations
 
-name | language | role(s) | [[version|version-negotiation]] | features/limitations
+name | language | role(s) | [[version|#version-negotiation]] | features/limitations
 --- | --- | --- | --- | ---
 [NSS](https://hg.mozilla.org/projects/nss) | C | C/S | -11 | P-256 only, no HelloRetryRequest, PSK resumption (ECDHE_PSK only)
 [Mint](https://github.com/bifurcation/mint) | Go | C/S | -11 | PSK resumption
