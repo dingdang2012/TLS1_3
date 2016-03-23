@@ -10,6 +10,8 @@ name | language | role(s) | [[version|Implementations#version-negotiation]] | fe
 
 # Version Negotiation
 
-Note that most of these implementations signal the draft version in a two-octet extension that uses the code point `0xff02`.  Set this to the ASCII encoding of the draft suffix (for example, draft -12 is the value `0x494a`).  Until the final version is released, please require this extension before negotiating TLS 1.3.  If the value is not present, or it doesn't match your implemented version you should negotiate TLS 1.2, or fail.
+Note that most of these implementations signal the draft version in a two-octet extension that uses the code point `0xff02`.  Set this to the ASCII encoding of the draft suffix (for example, draft -12 is the value `0x3132`).  Until the final version is released, please require this extension before negotiating TLS 1.3.  If the value is not present, or it doesn't match your implemented version you should negotiate TLS 1.2, or fail.
+
+Implementations of the final version should check for this extension and fail to negotiation TLS 1.3 if it is present.  That check might be removed once sufficient time has passed.
 
 
