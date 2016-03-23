@@ -6,7 +6,9 @@ name | language | role(s) | [[version|Implementations#version-negotiation]] | fe
 --- | --- | --- | --- | ---
 [NSS](https://hg.mozilla.org/projects/nss) | C | C/S | -11 | P-256 only, no HelloRetryRequest, PSK resumption (ECDHE_PSK only)
 [Mint](https://github.com/bifurcation/mint) | Go | C/S | -11 | PSK resumption
-[nqsb](https://github.com/mirleft/ocaml-tls) (branch tls13) | OCaml | C/S | -11 | PSK/DHE-PSK, no EC*, no client auth, no 0RTT -- live server at tls13test.nqsb.io port 4433 (records traces, ping [hannesm](https://github.com/hannesm) (via mail: anything at nqsb.io) if you have trouble establishing a connection)
+[nqsb](https://github.com/mirleft/ocaml-tls/tree/tls13) | OCaml | C/S | -11 | PSK/DHE-PSK, no EC*, no client auth, no 0RTT -- live server at tls13test.nqsb.io port 4433 (records traces, ping [@hannesm](https://github.com/hannesm) (via mail: anything at nqsb.io) if you have trouble establishing a connection)
+ProtoTLS | JavaScript | C/S | -11 | EC/DHE/PSK, no HelloRetryRequest
+miTLS | F* | C/S | -11 | EC/DHE/PSK | No HelloRetryRequest
 
 # Version Negotiation
 
