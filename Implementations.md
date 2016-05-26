@@ -18,6 +18,6 @@ Implementations of the final version should check for this extension and fail to
 
 # Test servers
 
-Implementation | URL
---- | ---
-Mint | https://tls13.cloudflare.com
+Implementation | Version | URL
+--- | --- | ---
+Mint | -11 | https://tls13.cloudflare.com 
