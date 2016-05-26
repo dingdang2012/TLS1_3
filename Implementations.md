@@ -16,4 +16,8 @@ Note that most of these implementations signal the draft version in a two-octet 
 
 Implementations of the final version should check for this extension and fail to negotiate TLS 1.3 if it is present.  That check might be removed once sufficient time has passed.
 
+# Test servers
 
+Implementation | URL
+--- | ---
+Mint | https://tls13.cloudflare.com
