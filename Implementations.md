@@ -8,7 +8,7 @@ name | language | role(s) | [[version|Implementations#version-negotiation]] | fe
 [Firefox](https://hg.mozilla.org/mozilla-central), based on NSS but behind | C++ | C |  -11 | P-256, No HRR, PSK resumption (DHE_PSK only), no 0-RTT
 [Mint](https://github.com/bifurcation/mint) | Go | C/S | -11 | PSK resumption
 [nqsb](https://github.com/mirleft/ocaml-tls/tree/tls13) | OCaml | C/S | -11 | PSK/DHE-PSK, no EC*, no client auth, no 0RTT -- live server at tls13test.nqsb.io port 4433, records traces, ping [@hannesm](https://github.com/hannesm), contains a static PSK/DHE_PSK token: id: 0x0000 secret: 0x000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
-ProtoTLS | JavaScript | C/S | -11 | EC/DHE/PSK, no HelloRetryRequest
+ProtoTLS | JavaScript | C/S | -13 | EC/DHE/PSK, no HelloRetryRequest
 miTLS | F* | C/S | -11 | EC/DHE/PSK | No HelloRetryRequest
 tls-tris | Go | S | -11 | ECDHE | No HelloRetryRequest
 
