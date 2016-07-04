@@ -23,4 +23,4 @@ Implementations of the final version should check for this extension and fail to
 Implementation | Version | URL
 --- | --- | ---
 Tris | -11 | https://tls13.cloudflare.com 
-[mod_nss](https://fedorahosted.org/mod_nss/) | -11 | https://tls13.crypto.mozilla.org/ 
+[mod_nss](https://fedorahosted.org/mod_nss/) | -13 | https://tls13.crypto.mozilla.org/ 
