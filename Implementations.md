@@ -11,6 +11,7 @@ ProtoTLS | JavaScript | C/S | -13 | EC/DHE/PSK, no HelloRetryRequest
 miTLS | F* | C/S | -13 | EC/DHE/PSK, no HelloRetryRequest
 [Tris](https://github.com/cloudflare/tls-tris) | Go | S | -13 | ECDHE, no HelloRetryRequest
 BoringSSL | C | C/S | -13 |
+Wireshark | C | other | -15 | no decryption, no HelloRetryRequest, EarlyData, Cookie dissection
 
 # Version Negotiation
 
